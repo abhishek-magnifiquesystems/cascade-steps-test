@@ -1,0 +1,10 @@
+name: Button component
+id: button-extension-step
+type: step
+url: http://localhost:3002/remoteEntry.js
+module: './Button'
+scope: 'cascadeApp'
+constraints:
+  - mandatory: true
+    operation: CONTAINS_STEP_NAME
+    parameter: twitter-search-source      
