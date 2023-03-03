@@ -1,7 +1,7 @@
 name: Button component
 id: button-extension-step
 type: step
-url: http://localhost:3002/remoteEntry.js
+url: http://localhost:1337/remoteEntry.js
 module: './Button'
 scope: 'cascadeApp'
 constraints:
